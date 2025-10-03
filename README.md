@@ -17,6 +17,8 @@ GND is soldered to GND.
 
 I use a 6x screwterminal to them and use 5 connectors of it. Obe ot them is not connected.
 
+For the Battery-Indicator you have to solder a wire from battery-positve + to pin 36. Solder it after the switch, otherwise voltage will flow into Pin 36 permanently. TTGO have a build-in voltage-divider to measure batteryvoltage and i linked it to Pin 36.
+
 Usage:
 Connect your Sensor / Breakoutboard / Device to it and switch on. It displays the adresses.
 Its a good idea to make some wired connectors for different things, maybe a adaptercable for StemmaQT-Connectors.
